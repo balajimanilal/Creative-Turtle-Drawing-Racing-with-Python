@@ -1,6 +1,7 @@
 from turtle import  Turtle, Screen
 import turtle
-1 Drawing tool with Turtle
+
+# 1 Drawing tool with Turtle
 coco = Turtle()
 screen = Screen()
 
@@ -32,6 +33,8 @@ screen.onkey(turn_right, "d")
 screen.onkey(clear, "c")
 
 screen.exitonclick()
+
+"""_______________________________________________________________________"""
 
 # 2 Turtle Racing
 from turtle import Turtle, Screen
